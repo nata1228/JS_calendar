@@ -9,8 +9,8 @@ console.clear();
 
     function getCalendarHead() {
         const dates = [];
-        const d = new Date(2020, month, 0).getDate();
-        const n = new Date(2020, month, 1).getDay();
+        const d = new Date(year, month, 0).getDate();
+        const n = new Date(year, month, 1).getDay();
 
         for (let i = 0; i < n; i++) {
             dates.unshift({
